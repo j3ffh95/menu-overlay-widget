@@ -41,6 +41,15 @@ body {
   z-index: -1;
 }
 
+#showcase .showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
 #showcase h1 {
   font-size: 4rem;
 }
